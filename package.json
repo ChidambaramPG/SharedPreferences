@@ -3,7 +3,7 @@
   "version": "2.3.0",
   "description": "Shared preferences implentation for android",
   "cordova": {
-    "id": "in.edelworks.sharedpreferences",
+    "id": "cordova.android.sharedpreferences",
     "platforms": [
       "android"
     ]
