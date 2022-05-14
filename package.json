@@ -1,9 +1,9 @@
 {
-  "name": "cordova-sharedpreferences",
+  "name": "cordova-plugin-andoid-sharedpreferences",
   "version": "2.3.0",
   "description": "Shared preferences implentation for android",
   "cordova": {
-    "id": "cordova.android.sharedpreferences",
+    "id": "cordova-plugin-andoid-sharedpreferences",
     "platforms": [
       "android"
     ]
