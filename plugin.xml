@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova.android.sharedpreferences"
+    id="cordova-plugin-andoid-sharedpreferences"
     version="0.1.0">
     <name>Shared Preferences</name>
     <description>Shared Preferences</description>
@@ -16,7 +16,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Sharedpreferences" >
-                <param name="android-package" value="cordova.android.sharedpreferences.Sharedpreferences"/>
+                <param name="android-package" value="cordova-plugin-andoid-sharedpreferences.Sharedpreferences"/>
             </feature>
         </config-file>
         <source-file src="src/android/Sharedpreferences.java" target-dir="src/in/edelworks/sharedpreferences" />
